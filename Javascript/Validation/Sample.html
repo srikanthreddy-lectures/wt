@@ -7,19 +7,20 @@
 <body>
     <div class="signup-box">
         <h1 class="formHeading">Registration</h1>
-        <form>
+        <form id="regs">
           <label>Name</label>
           <input type="text" placeholder="" id="username" />
           <span id="usernameError"></span>
           <label>Mobile No</label>
-          <input type="text" placeholder="" />
+          <input id="mobile" type="text" placeholder="" />
+          <span id="mobileError"></span>
           <label>Email</label>
           <input type="email" placeholder="" />
           <label>Password</label>
           <input type="password" placeholder="" />
           <label>Confirm Password</label>
           <input type="password" placeholder="" />
-          <input type="button" onclick="validation()" value="Register" />
+          <input type="submit" value="Register" />
         </form>
         <p class="para-1">
           By clicking the Register button, you agree to our <br />
